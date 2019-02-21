@@ -1,6 +1,9 @@
 # Why is this tool required?
 Since the game ATLAS does clutter its redis DB with RawTravelData entries, it can happen that it grows to several GB of size. This results in no longer working grid travel. It seems that the vanilla game does not give its redis entries an expiration time, with which the redis DB could cleanup itself. That's why this tool will simply add an expiration time to all RawTravelData entries.
 
+# Warning!
+Please make backups of all your savegame files and redis DB before you use this tool!
+
 # How to use it?
 ## Prerequisites
 1. You'll need to install [Node](https://nodejs.org/en/download/) on your machine first
