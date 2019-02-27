@@ -6,7 +6,7 @@
 const { promisify } = require('util');
 const redis = require("redis");
 
-const intervalTimer = 600 * 1000 // 10 minutes
+const intervalTimer = 10 * 60 * 1000; // 10 minutes
 const expirationTime = 1800; // in seconds -> 1800 = 30 minutes
 // if a key expires, the next 5 min fork cycle of the redis db will clear it from your harddrive
 
