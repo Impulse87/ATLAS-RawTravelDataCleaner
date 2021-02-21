@@ -25,7 +25,7 @@ Please make backups of all your savegame files and redis DB before you use this 
 8. As soon as Node did install required submodules and you put in your correct password, ip and port, you'll be able to start the cleaner tool with "npm start", like so: http://prntscr.com/moaz2k
 
 ## Sponsor
-You want your own game server? Use the links (with referal code **?ref=Impulse**) below to save **5%** of the original price!
+You want your own game server? Use the link (with referal code **?ref=Impulse**) below to save **5%** of the original price!
 [![alt text](https://i.imgur.com/kPuuDSj.png "G-Protal")](https://www.g-portal.com?ref=Impulse)
 
 ## Donation/Support
